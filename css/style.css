@@ -98,7 +98,7 @@ body {
     background: white;
     border-radius: 15px;
     overflow: hidden;
-    border: 1px solid #d1d1d1; 
+    border: 1px solid #d1d1d1;
 }
 
 .card-image img {
@@ -115,6 +115,17 @@ body {
 .card-text {
     padding: 10px 15px; 
     background: #ffffff;
+}
+
+.card-link {
+    display: block; 
+    text-decoration: none;
+    color: inherit;       
+    transition: transform 0.3s ease; 
+}
+
+.card-link:hover {
+    transform: scale(1.03);
 }
 
 footer { 
@@ -579,5 +590,6 @@ body.page-marina {
     .content-wrapper { padding: 0 15px; }
 
 }
+
 
 
