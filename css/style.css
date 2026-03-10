@@ -95,16 +95,22 @@ body {
     gap: 34px;
 }
 .city-card { 
+    display: flex;
+    flex-direction: column; 
+    height: 100%;          
     background: white;
     border-radius: 15px;
     overflow: hidden;
     border: 1px solid #d1d1d1;
+    transition: transform 0.3s ease;
 }
 
 .card-image img {
     width: 100%;
     height: 250px;
-    object-fit: cover; }
+    object-fit: cover;
+    flex-shrink: 0:
+}
 
 .card-text h4 {
     color: #121420;
@@ -118,10 +124,10 @@ body {
 }
 
 .card-link {
-    display: block; 
+    display: block;
     text-decoration: none;
-    color: inherit;       
-    transition: transform 0.3s ease; 
+    color: inherit;
+    width: 100%;
 }
 
 .card-link:hover {
@@ -590,6 +596,7 @@ body.page-marina {
     .content-wrapper { padding: 0 15px; }
 
 }
+
 
 
 
