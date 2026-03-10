@@ -1,4 +1,16 @@
+card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
 
+.card-link:hover {
+    transform: scale(1.05); 
+}
+
+.card-link:active {
+    transform: scale(0.98)
 {
     margin: 0;
     padding: 0;
@@ -578,4 +590,5 @@ body.page-marina {
 @media (max-width: 768px) {
     .hero-text h1 { font-size: 40px; }
     .content-wrapper { padding: 0 15px; }
+
 }
