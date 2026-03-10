@@ -137,20 +137,6 @@ footer img {
     max-width: 150px;
      }
 
-card-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.card-link:hover {
-    transform: scale(1.05); 
-}
-
-.card-link:active {
-    transform: scale(0.98)
-
 @media (max-width: 1400px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
@@ -593,4 +579,5 @@ body.page-marina {
     .content-wrapper { padding: 0 15px; }
 
 }
+
 
