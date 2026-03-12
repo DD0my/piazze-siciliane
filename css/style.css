@@ -69,25 +69,31 @@ body {
     color: #929487;
 }
 
-.search-bar{
+.search-bar {
+    margin-left: auto; 
     padding: 5px 15px;
     display: flex;
-    align-items: center; }
+    align-items: center;
+}
 
 .search-bar img {
-    height: 30px;
-    opacity: 0.6; }
+   height: 30px;
+    opacity: 0.6;
+    cursor: pointer;
+}
 
 .home-icon {
     width: auto;
-    display: block; }
+    display: block;
+}
 
 .hero-text { 
     position: absolute;
     bottom: 4%;
     left: 5%;
     line-height: 0.40; 
-    margin-bottom: 0;}
+    margin-bottom: 0;
+}
 
 .hero-text h1 {
     font-family: 'Besley', serif;
@@ -132,6 +138,7 @@ body {
     font-size: 28px;
     margin: 5px;
 }
+
 .card-text {
     padding: 10px 15px; 
     background: #ffffff;
@@ -619,6 +626,7 @@ body.page-marina {
     .content-wrapper { padding: 0 15px; }
 
 }
+
 
 
 
